@@ -1,0 +1,43 @@
+/* start form */
+fieldset {
+  border: 1px solid #cacaca;
+  border-radius: 10px;
+  width: 50%;
+  background-color: rgb(207, 130, 183);
+}
+fieldset legend {
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+.form-group {
+  margin: 10px 0;
+}
+.form-group label {
+  font-weight: bolder;
+}
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  margin: 12px 0px;
+  padding: 7px 7px;
+  border: 1px solid #cacaca;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 0.518);
+}
+.form-group input[type="submit"] {
+  padding: 15px 0px;
+  cursor: pointer;
+  background-color: rgb(24, 28, 233);
+  color: #ffffff;
+  border-color: rgb(24, 28, 233);
+}
+.form-group .list-item input {
+  width: 20px;
+}
+.form-group input[type="submit"]:hover {
+  background-color: #05a039;
+}
+
+/* end form */
